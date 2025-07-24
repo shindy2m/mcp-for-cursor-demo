@@ -32,12 +32,12 @@ pip install -r config/requirements.txt
 }
 ```
 
-## Available Tools
+## Available MCP Tools
 
 - **calculator**: Basic arithmetic (add, subtract, multiply, divide)
 - **get_system_info**: System information (CPU, memory, disk)
 
-## Usage
+## Usage from Cursor AI Chat
 - Write following in ai chat
   - show me system info
   - 14 plus 56
