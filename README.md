@@ -1,4 +1,4 @@
-# MCP Demo
+# MCP for Cursor Demo
 
 This is a simple MCP (Model Context Protocol) server that runs locally and communicates over standard input/output (stdio). 
 It provides two demonstration tools: 
