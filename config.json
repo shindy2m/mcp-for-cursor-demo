@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "mcp-demo": {
+      "command": "python",
+      "args": ["src/server.py"],
+      "env": {}
+    }
+  }
+} 
