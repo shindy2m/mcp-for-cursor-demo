@@ -12,6 +12,7 @@ Simple demo application implementing an MCP (Model Context Protocol) server usin
 - Follow MCP protocol standards
 
 ### Technical Requirements
+- Implement application in Python
 - Use standard MCP SDK for implementation
 - Support JSON-RPC communication
 - Implement required MCP methods (initialize, tools/list, tools/call, etc.)
