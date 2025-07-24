@@ -11,32 +11,22 @@ Simple demo application implementing an MCP (Model Context Protocol) server usin
 - Enable connection from Cursor IDE
 - Follow MCP protocol standards
 
+### MCP Tools
+- Basic system information retrieval
+- Calculator functionality
+
 ### Technical Requirements
 - Implement application in Python
 - Use standard MCP SDK for implementation
 - Support JSON-RPC communication
 - Implement required MCP methods (initialize, tools/list, tools/call, etc.)
 - Handle authentication and connection management
+- **Logging and Debugging**: Implement comprehensive logging system to track:
+  - Server startup and initialization
+  - All incoming MCP requests with parameters
+  - All outgoing MCP responses
+  - Error conditions and exceptions
+  - Connection events and status changes
 
-### Demo Features
-- Basic system information retrieval
-- Calculator functionality
 
-### Integration
-- Connectable from Cursor IDE
-- Proper error handling and logging
-- Configuration via environment variables or config file
-- Health check endpoint
 
-### Development Goals
-- Clean, maintainable code structure
-- Comprehensive documentation
-- Easy setup and deployment
-- Extensible architecture for adding new tools
-
-## Success Criteria
-- MCP server starts successfully
-- Cursor can establish connection
-- All demo tools work correctly
-- Protocol compliance verified
-- Clear documentation for usage
